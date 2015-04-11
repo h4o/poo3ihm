@@ -1,0 +1,75 @@
+<script src="scripts/parallax.js"></script>
+<div ng-controller="MainCtrl">
+
+  <div class="parallax-container">
+      <div class="parallax"><img src="./images/background2.jpg"></div>
+    </div> <div class="container">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title grey-text text-darken-4">{{data.name}} {{data.surname | uppercase}}</span><br>
+              
+{{data.address}}<br>
+{{data.zipcode}}<br>
+{{data.country}}<br>
+{{data.intro}}<br>
+            </div>
+          </div>
+        </div>
+  
+
+<h2>Projects</h2>
+<a class="waves-effect" ng-repeat="project in data.projects track by $index" ng-click="show($index)"
+ng-class="isShown($index) ? 'btn':'btn-flat'" >{{project.name}}</a>
+
+ <div class="card small" ng-repeat="project in data.projects track by $index" ng-show="isShown($index)">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" ng-src="{{project.icon}}">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">{{project.name}} <i class="mdi-navigation-more-vert right"></i></span>
+          <p><a href="#">This is a link</a></p>
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">{{project.name}} <i class="mdi-navigation-close right"></i></span>
+          <p>{{project.description}} </p>
+        </div>
+      </div>
+
+
+<h2>Formation</h2>
+<p ng-repeat="formation in data.formations">
+<b>{{formation.school}}</b>
+ <span class="small"> ({{formation.year}})</span> {{formation.description}}
+
+</p>
+<h1>Professional experience</h1>
+<p ng-repeat="experience in data.experiences">
+<b>{{experience.year}}</b>
+ <span class="small"> ({{experience.duration}})</span> {{experience.description}}
+
+</p>
+<h2>Software skills</h2>
+<table class="striped">
+<thead><tr>
+<th>Category</th><th>Skills</th>
+</tr>
+</thead>
+<tr ng-repeat="skill in data.skills">
+<td>{{skill.category}}</td>
+<td>{{skill.skill}}</td>
+</tr>
+</table>
+<h2>Languages</h2>
+<table class="striped">
+<thead><tr>
+<th>Language</th><th>Level</th>
+</tr>
+</thead> 
+<tr ng-repeat="language in data.languages">
+<td>{{language.language}}</td>
+<td>{{language.level}}</td>
+</tr>
+</table>
+</div>
+</div>

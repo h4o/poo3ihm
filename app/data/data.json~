@@ -1,0 +1,20 @@
+{
+	"name":"Fabien",
+	"Surname":"Vicente",
+	"address":"2881 route des crêtes",
+	"zipcode":"06560",
+	"country":"France",
+	"intro":"A qualified  international IT graduate engineering student looking for an internship in computer programming from June 23rd to July 31st, 2015",
+	"projects":[{"name":"Omnimusic","icon":"./images/omnimusic.png","description":"..."},
+			{"name":"Airfight","icon":"./images/airfight.png","description":"..."}],
+	"languages":[{"language":"French","level":"native language"},
+		     {"language":"English","level":"fluent"},
+		     {"language":"Spanish","level":""},
+		     {"language":"Portuguese","level":"spoken"}],
+	
+	"formations":[{"year":"2014-Now","school":"Ecole polytechnique universitaire de Polytech Nice-Sophia",
+			"description":"graduate engineering school", "location":"Sophia-Antipolis(France)"}],
+	"experience":[{"year":"2014","duration":"2 months", "description":"Worked for Fastboot Mobile, LLC  on an undisclosed android application worked on music playback,plugin developpement, playlist creation and edition with SQLite on Android 5.0 Lollipop."}],
+	"skillTypes":[{"title":"software","skills":{"title":"","value":""}}]
+
+}	

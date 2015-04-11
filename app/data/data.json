@@ -1,0 +1,26 @@
+{
+	"name":"Fabien",
+	"surname":"Vicente",
+	"address":"2881 route des crêtes",
+	"zipcode":"06560",
+	"country":"France",
+	"intro":"A qualified  international IT graduate engineering student looking for an internship in computer programming from June 23rd to July 31st, 2015",
+	"projects":[{"name":"Omnimusic","icon":"./images/Omnimusic-logo.png","description":"Omnimusic is an  extensible music application"},
+			{"name":"Airfight","icon":"./images/airfight.png","description":"Airfight is a small andrdoid video game"}],
+	"languages":[{"language":"French","level":"native language"},
+		     {"language":"English","level":"fluent"},
+		     {"language":"Spanish","level":"spoken"},
+		     {"language":"Portuguese","level":"spoken"}],
+	
+	"formations":[{"year":"2014-Now","school":"Ecole polytechnique universitaire de Polytech Nice-Sophia",
+			"description":"graduate engineering school", "location":"Sophia-Antipolis(France)"},{"year":"2012-2014","school":"CIP (cycle intégré préparatoire)",
+			"description":"A two-year in-school preparatory degree in engineering gradated 5th over 94", "location":"Sophia-Antipolis(France)"},
+			{"year":"2009-2012","school":"Lycée Rempart",
+			"description":"Baccalauréat \"S\" (scientific subjects, equivalent to british 'A' level or American High School diploma) ", "location":"Marseille(France)"}],
+	"experiences":[{"year":"2009","duration":"2 months", "description":"Worked for Fastboot Mobile, LLC  on an undisclosed android application worked on music playback,plugin developpement, playlist creation and edition with SQLite on Android 5.0 Lollipop."}],
+	"skills":[{"category":"web","skill":"PHP,  HTML, CSS, Javascript"},
+	{"category":"operating systems","skill":"Linux, Windows"},
+	{"category":"programming languages","skill":"C, Java, python"},
+	{"category":"database","skill":"SQLite"}]
+
+}	
